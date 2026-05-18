@@ -1,0 +1,70 @@
+[
+  {
+    "title": "car",
+    "type": "Image",
+    "imageUrl": {},
+    "date": "2026-05-18T17:23:45.131Z",
+    "id": 1779125025174,
+    "createdAt": "2026-05-18T17:23:45.174Z"
+  },
+  {
+    "title": "CAR",
+    "type": "Text-to-Video",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "style": "Cinematic",
+    "aspectRatio": "16:9",
+    "id": 1778918074500,
+    "createdAt": "2026-05-16T07:54:34.500Z"
+  },
+  {
+    "title": "sports car...",
+    "type": "Text-to-Video",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "style": "Cinematic",
+    "aspectRatio": "16:9",
+    "id": 1778914774210,
+    "createdAt": "2026-05-16T06:59:34.210Z"
+  },
+  {
+    "title": "Ambient Forest Sound",
+    "type": "Audio-Studio",
+    "videoUrl": null,
+    "style": "Nature",
+    "id": 1778907800001,
+    "createdAt": "2026-05-16T11:00:00.000Z"
+  },
+  {
+    "title": "Cyberpunk Portrait",
+    "type": "Image-Studio",
+    "videoUrl": null,
+    "thumbnailUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=400",
+    "id": 1778907800002,
+    "createdAt": "2026-05-16T11:05:00.000Z"
+  },
+  {
+    "title": "Space Journey Outro",
+    "type": "Thumbnail-Generation",
+    "videoUrl": null,
+    "thumbnailUrl": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=400",
+    "id": 1778907800003,
+    "createdAt": "2026-05-16T11:10:00.000Z"
+  },
+  {
+    "title": "create a video relat...",
+    "type": "Text-to-Video",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "style": "Cinematic",
+    "aspectRatio": "16:9",
+    "id": 1778907762810,
+    "createdAt": "2026-05-16T05:02:42.810Z"
+  },
+  {
+    "title": "car ka video banao...",
+    "type": "Text-to-Video",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "style": "Cinematic",
+    "aspectRatio": "16:9",
+    "id": 1778907725436,
+    "createdAt": "2026-05-16T05:02:05.436Z"
+  }
+]

@@ -1,0 +1,166 @@
+.header {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--secondary-text);
+  font-size: 15px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+}
+
+.controls {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  box-shadow: var(--card-shadow);
+}
+
+.tabGroup {
+  display: flex;
+  gap: 8px;
+  background: #f2f2f7;
+  padding: 4px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.tab {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.tab.active {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.inputGroup {
+  margin-bottom: 24px;
+}
+
+.inputGroup label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--secondary-text);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  resize: none;
+  font-size: 14px;
+}
+
+.settingsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.setting label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--secondary-text);
+  margin-bottom: 8px;
+}
+
+.setting select, .setting input[type="range"] {
+  width: 100%;
+}
+
+.generateBtn {
+  width: 100%;
+  background: var(--accent);
+  color: white;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.waveformZone {
+  background: #000;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.visualizer {
+  width: 100%;
+}
+
+.emptyWave {
+  text-align: center;
+  color: #444;
+}
+
+.emptyWave span {
+  font-size: 64px;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.audioPlayer {
+  width: 100%;
+}
+
+.waveMock {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 32px;
+}
+
+.bar {
+  flex: 1;
+  background: var(--accent);
+  border-radius: 2px;
+  min-height: 4px;
+  opacity: 0.8;
+}
+
+.realAudio {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.audioActions {
+  display: flex;
+  gap: 12px;
+}
+
+.actionBtn {
+  background: rgba(255,255,255,0.1);
+  color: white;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.2);
+}

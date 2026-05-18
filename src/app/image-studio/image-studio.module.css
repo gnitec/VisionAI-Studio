@@ -1,0 +1,182 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: var(--secondary-text);
+  font-size: 15px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 180px 1fr 240px;
+  gap: 24px;
+  height: calc(100vh - 180px);
+}
+
+.toolbar {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tool {
+  padding: 12px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  transition: var(--transition);
+}
+
+.tool:hover {
+  background: #f0f0f0;
+}
+
+.tool.active {
+  background: var(--accent);
+  color: white;
+}
+
+.canvasContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.canvas {
+  flex: 1;
+  background: #111;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.emptyCanvas {
+  text-align: center;
+  color: #555;
+}
+
+.emptyCanvas span {
+  font-size: 64px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.imagePreview {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainImage {
+  max-width: 90%;
+  max-height: 85%;
+  border-radius: var(--radius-md);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.imageActions {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.actionBtn {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.promptBar {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 40px;
+  padding: 8px 8px 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: var(--card-shadow);
+}
+
+.promptInput {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.genBtn {
+  background: var(--accent);
+  color: white;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.assets {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+}
+
+.assetsTitle {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.assetGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.assetThumb {
+  aspect-ratio: 1;
+  background: #eee;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.loader {
+  text-align: center;
+  color: #888;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid #333;
+  border-top: 3px solid var(--accent);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
